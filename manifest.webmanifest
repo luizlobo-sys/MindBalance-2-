@@ -1,0 +1,22 @@
+{
+  "name": "MindBalance - Bem-estar Mental",
+  "short_name": "MindBalance",
+  "description": "Check-in de humor, diário, respiração e meditações guiadas. Seus dados ficam só no seu aparelho.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2f6f3",
+  "theme_color": "#1d3a8a",
+  "categories": ["health", "education", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Check-in de hoje", "url": "./#/checkin" },
+    { "name": "Respirar", "url": "./#/respirar" }
+  ]
+}
